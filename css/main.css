@@ -2,44 +2,83 @@
     Main CSS styles for the website
     @author Isabel Cruz.
 */
-body {
-    font-size: 62.5%;
+body { /*selector*/
+    background-color: #E0DCD9;
+    font-size: 62.5%; /*declarations*/
 }
 
-img {
+#ppicture {
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 285px;
+    padding: 16px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
+.topnav {
+    background-color: #75334E;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    padding: 24px 36px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.topnav a:hover{
+    background-color: #CB607B;
+}
+
+.topnav a.active{
+    background: rgb(87, 36, 58);
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-block-end: 0px;
+    background: #E0DCD9;
+}
+
+h1.header {
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    font-size: 40pt;
-    color: #FF4141;
+    font-size: 100pt;
+    color: #75334E;
+}
+
+p.header {
+    font-family: 'Muli', sans-serif;
+    font-size: 64pt;
+    color: #CB607B;
+}
+
+p.description {
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 24pt;
+    color: #CB607B;
     text-align: center;
 }
 
 h2 {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Monserrat', sans-serif;
     font-size: 30pt;
     font-weight: bold;
-    color: #FF4141;
+    color: #75334E;
     text-align: center;
 }
 
 #font1 {
     font-family: 'Open Sans Condensed', sans-serif;
-}
-
-p {
-    font-family: 'Muli', sans-serif;
-    font-size: 24pt;
-    color: #FF7474;
-    text-align: center;
 }
 
 #font3 {
