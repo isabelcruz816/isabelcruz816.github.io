@@ -3,8 +3,8 @@
     @author Isabel Cruz.
 */
 body { /*selector*/
-    background-color: #E0DCD9;
     font-size: 62.5%; /*declarations*/
+    bottom: 0;
 }
 
 #ppicture {
@@ -20,10 +20,22 @@ body { /*selector*/
 .topnav {
     background-color: #75334E;
     overflow: hidden;
+    position: sticky;
+    top:0;
+    left: 0%;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav li {
+    display: inline;
 }
 
 .topnav a {
-    float: left;
+    display: inline-block;
     color: white;
     font-family: 'Muli', sans-serif;
     font-size: 16px;
@@ -41,46 +53,94 @@ body { /*selector*/
 }
 
 .header {
-    padding: 60px;
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-block-end: 0px;
     background: #E0DCD9;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 h1.header {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    font-size: 100pt;
+    font-size: 45pt;
     color: #75334E;
+    margin: 0px;
+    padding: 2%;
 }
 
 p.header {
     font-family: 'Muli', sans-serif;
-    font-size: 64pt;
+    font-size: 60pt;
+    text-decoration: underline dotted;
     color: #CB607B;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container1 {
+    width: 100%;
+    height: contain;
+    background: #CB607B; 
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h1.container1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 45pt;
+    color: #E0DCD9;
+    position: inherit;
+    margin-top:0;
+    padding-top:20px;
+}
+
+p.container1 {
+    font-family: 'Courier', sans-serif;
+    font-size: 20pt;
+    color: whitesmoke;
+    padding-bottom: 20px;
 }
 
 p.description {
-    font-family:'Open Sans Condensed', sans-serif;
+    font-family:'Open Sans Condensed';
     font-size: 24pt;
     color: #CB607B;
     text-align: center;
 }
 
-h2 {
-    font-family: 'Monserrat', sans-serif;
-    font-size: 30pt;
-    font-weight: bold;
-    color: #75334E;
-    text-align: center;
+#code1 {
+    background: #5A5A5A;
+    text-align: left;
+    font-family: 'Courier New';
+    font-size: 14pt;
+    color:white;
+    width: 800px;
+    height: contain;
+    display: inline-block;
+    border: 0.8px solid #f1f1f1;
+    border-radius: 4px;
 }
 
-#font1 {
-    font-family: 'Open Sans Condensed', sans-serif;
+.bartop {
+    padding: 5px;
+    background: rgb(237, 237, 237);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
 }
 
-#font3 {
-    font-family: 'Poppins', sans-serif;
+.dot {
+    height: 12px;
+    width: 12px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+p.content{
+    font-family: 'Courier New';
+    font-size: 14pt;
+    color:white;
+    padding: 10px;
+    line-height: 1.8;
 }
