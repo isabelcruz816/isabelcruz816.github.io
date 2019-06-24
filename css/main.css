@@ -8,7 +8,6 @@ body { /*selector*/
 }
 a {
     color:rgb(250, 183, 216);
-    text-decoration: none;
 }
 #ppicture {
     border-radius: 50%;
@@ -41,7 +40,7 @@ a {
     display: inline-block;
     color: white;
     font-family: 'Muli', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     padding: 24px 36px;
     text-decoration: none;
     text-align: center;
@@ -107,6 +106,22 @@ p.container1 {
     background: #E0DCD9; 
     text-align: center;
     padding-bottom: 20px;
+}
+
+h1.experience {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30pt;
+    color:#5A5A5A;
+    font-weight: bolder;
+    position: inherit;
+    text-align: left;
+    margin-left: 10%; 
+}
+
+#experiencep {
+    font-style: 'Muli', sans-serif;
+    font-size: 20pt;
+    color:#5A5A5A;
 }
 
 h1.container2 {
