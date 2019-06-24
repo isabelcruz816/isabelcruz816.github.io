@@ -6,7 +6,10 @@ body { /*selector*/
     font-size: 62.5%; /*declarations*/
     bottom: 0;
 }
-
+a {
+    color:rgb(250, 183, 216);
+    text-decoration: none;
+}
 #ppicture {
     border-radius: 50%;
     width: 350px;
@@ -19,10 +22,10 @@ body { /*selector*/
 
 .topnav {
     background-color: #75334E;
-    overflow: hidden;
-    position: sticky;
-    top:0;
-    left: 0%;
+    /*overflow: hidden;*/
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
     list-style: none;
     text-align: center;
@@ -38,7 +41,7 @@ body { /*selector*/
     display: inline-block;
     color: white;
     font-family: 'Muli', sans-serif;
-    font-size: 16px;
+    font-size: 24px;
     padding: 24px 36px;
     text-decoration: none;
     text-align: center;
@@ -46,10 +49,6 @@ body { /*selector*/
 
 .topnav a:hover{
     background-color: #CB607B;
-}
-
-.topnav a.active{
-    background: rgb(87, 36, 58);
 }
 
 .header {
@@ -102,13 +101,36 @@ p.container1 {
     padding-bottom: 20px;
 }
 
-p.description {
+.container2 {
+    width: 100%;
+    height: contain;
+    background: #E0DCD9; 
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h1.container2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 45pt;
+    color: #CB607B;
+    position: inherit;
+    margin-top:0;
+    padding-top:20px;
+}
+
+p.description1 {
     font-family:'Open Sans Condensed';
     font-size: 24pt;
     color: #CB607B;
     text-align: center;
 }
 
+p.description2 {
+    font-family:'Roboto', sans-serif;
+    font-size: 34pt;
+    text-align: center;
+}
 #code1 {
     background: #5A5A5A;
     text-align: left;
@@ -143,4 +165,31 @@ p.content{
     color:white;
     padding: 10px;
     line-height: 1.8;
+}
+
+.fa {
+    padding: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 2px;
+    border-radius: 50%;
+}
+  
+.fa:hover {
+    color: #CB607B;
+    opacity: 0.9;
+}
+
+.fa-facebook {
+    background: #f1f1f1;
+    color: #75334E;
+}
+.fa-linkedin {
+    background: #f1f1f1;
+    color: #75334E;
+}
+.fa-instagram {
+    background: #75334E;
+    color: #f1f1f1;
 }
