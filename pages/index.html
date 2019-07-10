@@ -9,13 +9,14 @@
 		<link rel = "stylesheet" href = "../css/normalize.css">
 		<link rel = "stylesheet" href = "../css/main.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 		<!-- Fonts -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-
+		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -61,17 +62,50 @@
 					<br>
 					> isabel.hobbies <br> <span style="font-style: italic; font-size: 13pt; color:#D1D0D1">=> ["Pilates", "Programming"]</span>
 					<br>
-					> isabel.resume <br> <a href = "../docs/cv2019.pdf" target = "_blank"><span style = "text-decoration: underline">isabelcruz.pdf</span></a>
+					> isabel.resume <br> <a href = "../docs/resumeAna2019.pdf" target = "_blank"><span style = "text-decoration: underline">isabelcruz.pdf</span></a>
 				</p>
 			</div>
 		</div>
 		<!-- Experience-->
 		<div id = "section3" class = container2>
 			<h1 class = container2>EXPERIENCE</h1>
-			<h1 class = experience>Work position 1</h1>
-			<p id = experiencep> Period of time</p>
-			<h1 class = experience>Work position 2</h1>
-			<p id = experiencep> Period of time</p>
+			<div class = "grid-container">
+				<div class = "grid-item">
+					<img class = "img-fluid" src = "../images/android.png">
+				</div>
+				<div class = "grid-item">
+						<img class = "img-fluid" src = "../images/database.png">
+				</div>
+				<div class = "grid-item">
+					<img class = "img-fluid" src = "../images/laptop.png">
+				</div>
+				<span class = "grid-item"><h1 class = "exp">Mobile Development</h1></span>
+				<span class = "grid-item"><h1 class = "exp">Database Management</h1></span>
+				<span class = "grid-item"><h1 class = "exp">Web Development</h1></span>
+				<span class = "grid-item"><p class = "gridtext">June 2019 - Present</p></span>
+				<span class = "grid-item"><p class = "gridtext">June 2019 - Present</p></span>
+				<span class = "grid-item"><p class = "gridtext">Summer 2018</p></span>
+				<div class = "grid-item">
+					<ul>
+						<li class = "exp">Help fixing bugs to improve the functionality and user experience in the mobile application using Java and Android Studio.</li>
+					</ul>
+				</div>
+				<div class = "grid-item">
+					<ul>
+						<li class = "exp">Help improving data base management of the company to increase efficiency using SQL and Azure Data Studio.</li>
+					</ul>
+				</div>
+				<div class = "grid-item">
+					<ul>
+						<li class = "exp">Helped refactoring websites using HTML, CSS and JavaScript.</li>
+						<li class = "exp">Helped tracking Facebook Ads performance for the company’s clients.</li>
+					</ul>
+				</div>
+				<span class = "grid-item"><p class = "gridtext">Company: <a href = "#">Telstock</a></p></span>
+				<span class = "grid-item"><p class = "gridtext">Company: <a href = "#">Telstock</a></p></span>
+				<span class = "grid-item"><p class = "gridtext">Company: <a href = "#">Red Rooster Marketing</a></p></span>
+			</div>
+
 		</div>
 		<!-- Skills -->
 		<div id = "section4" class = container1>
@@ -83,8 +117,16 @@
    					 <div class="w3-modal-content">
      				 <div class="w3-container">
         				<span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times</span>
-							<h1>C++</h1>
-							<p class = description2>I fist worked ...</p>
+							<h1 class = "popup">C++</h1>
+							<p id = "p1">I was introduced with C++ in my first semester of college at ITESM.<br>
+								Relevant courses:
+								<ul>
+									<li class = "exp">Fundaments of programming</li>
+									<li class = "exp">Object oriented programming</li>
+									<li class = "exp">Data Structures</li>
+									<li class = "exp">Algorithms</li>
+								</ul>
+							</p>
      				 </div>
     				</div>
 				</div>
@@ -94,11 +136,17 @@
 			<button onclick="document.getElementById('id02').style.display='block'">Swift</button>
   				<div id="id02" class="w3-modal">
    					 <div class="w3-modal-content">
-     				 <div class="w3-container">
-        				<span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright">&times</span>
-							<h1>Swift</h1>
-							<p class = description2>I fist worked ...</p>
-     				 </div>
+						<div class="w3-container">
+							<span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright">&times</span>
+								<h1 class = "popup">Swift</h1>
+								<p id = "p1">I learned Swift during my last year of high-school and developed an application as a school project.<br>
+									Relevant courses:
+									<ul>
+										<li class = "exp">iOS Application Development with Swith</li>
+										<li class = "exp">Swift workshop</li>
+									</ul>
+								</p>
+						</div>
     				</div>
 				</div>
 		</div>
@@ -109,8 +157,12 @@
    					 <div class="w3-modal-content">
      				 <div class="w3-container">
         				<span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright">&times</span>
-							<h1>JavaScript</h1>
-							<p class = description2>I fist worked ...</p>
+							<h1 class = "popup">JavaScript</h1>
+							<p id = "p1">Self-taught</p>
+							<ul>
+								<li class = "exp">Fundaments of JavaScript by CodeAcademy.</li>
+								<li class = "exp">HTML/CSS and JavaScript For Dummies.</li>
+							</ul>
      				 </div>
     				</div>
 				</div>
@@ -122,8 +174,14 @@
    					 <div class="w3-modal-content">
      				 <div class="w3-container">
         				<span onclick="document.getElementById('id04').style.display='none'" class="w3-button w3-display-topright">&times</span>
-							<h1>Java</h1>
-							<p class = description2>I fist worked ...</p>
+							<h1 class = "popup">Java</h1>
+							<p id = "p1">I learned Java in high-school and I enforced my knowledge of this language in college developing a videogame.
+								<br> Relevant courses:
+							</p>
+							<ul>
+								<li class = "exp">Introduction to informatic technology</li>
+								<li class = "exp">Videogame Project Development</li>
+							</ul>
      				 </div>
     				</div>
 				</div>
@@ -135,8 +193,11 @@
    					 <div class="w3-modal-content">
      				 <div class="w3-container">
         				<span onclick="document.getElementById('id05').style.display='none'" class="w3-button w3-display-topright">&times</span>
-							<h1>Scilab</h1>
-							<p class = description2>I fist worked ...</p>
+							<h1 class = "popup">Scilab</h1>
+							<p id = "p1">I first learned Scilab in college. <br> Relevant courses:</p>
+							<ul>
+								<li class = "exp">Numerical Methods for engineering.</li>
+							</ul>
      				 </div>
     				</div>
 				</div>
@@ -148,8 +209,11 @@
    					 <div class="w3-modal-content">
      				 <div class="w3-container">
         				<span onclick="document.getElementById('id06').style.display='none'" class="w3-button w3-display-topright">&times</span>
-							<h1>Python</h1>
-							<p class = description2>I fist worked ...</p>
+							<h1 class = "popup">Python</h1>
+							<p id = "p1">Self-taught. <br> Relevant courses:</p>
+							<ul>
+								<li class = "exp">Python ...</li>
+							</ul>
      				 </div>
     				</div>
 				</div>
@@ -162,7 +226,7 @@
 		<!-- Contact -->
 		<div id = "section6" class = "container1">
 			<h1 class = container1>Let's get in touch</h1>
-			<p class = description2><a href = "mailto:isabel.cruz81699@gmail.com" target = "_blank">isabel.cruz81699@gmail.com</a></p>
+			<a class = "contact" href = "mailto:isabel.cruz81699@gmail.com" target = "_blank">isabel.cruz81699@gmail.com</a></p>
 			<a href = "https://www.facebook.com/isabel.cruz.180072?ref=bookmarks" target = "_blank" class = "fa fa-facebook" style = "font-size: 30px"></a>
 			<a href = "https://www.instagram.com/isabelcruzra/?hl=en" target = "_blank" class = "fa fa-instagram" style = "font-size: 30px"></a>
 			<a href = "https://www.linkedin.com/in/anaisabelcruz/" target="_blank" class = "fa fa-linkedin" style = "font-size: 30px"></a>
