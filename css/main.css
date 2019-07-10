@@ -294,6 +294,7 @@ button {
     padding: 10px;
     height: 200px;
     background-color: #CB607B;
+    border-radius: 6px;
 }
 
 .row {
