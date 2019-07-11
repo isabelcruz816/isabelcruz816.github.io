@@ -405,5 +405,27 @@ footer {
     text-align: center;
     color: #E0DCD9;
 }
-
-
+/*************************************************************************************/
+.w3-button1 {
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color: #75334E;
+    background-color:inherit;
+    text-align:center;
+    cursor: pointer;
+    white-space:nowrap;
+}
+.w3-disabled,.w3-button1:disabled {
+    cursor:not-allowed;
+    opacity:2;
+}
+.w3-disabled *,:disabled * {
+    pointer-events:none
+}
+.w3-button1:hover {
+    color: #CB607B;
+}
