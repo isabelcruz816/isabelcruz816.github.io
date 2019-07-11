@@ -290,13 +290,15 @@ p.content {
     border-radius: 50%;
     margin-right:5px;
     margin-bottom: 20px;
-    font-size: 32px;
+    font-size: 28px;
     color: #75334E;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
     text-align: center;
     line-height: 170px;
     display: inline-block;
     background: #E0DCD9;
+    border: 5px solid #9FB1AC;
 }
 
 button {
