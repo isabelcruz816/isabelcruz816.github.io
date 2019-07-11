@@ -54,14 +54,14 @@ html {
 
 }
 
-
 a.contact {
     color:rgb(250, 183, 216);
     font-family:'Roboto', sans-serif;
     font-size: 34pt;
     text-align: center;
-    
+    text-decoration: underline dotted;
 }
+
 #ppicture {
     border-radius: 50%;
     width: 350px;
@@ -156,7 +156,7 @@ p.header {
 h1.container1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    font-size: 45pt;
+    font-size: 30pt;
     color: #E0DCD9;
     position: inherit;
     margin-top:0;
@@ -175,7 +175,7 @@ p.container1 {
     height: contain;
     background: #E0DCD9; 
     text-align: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 #p1 {
     font-size: 16pt;
@@ -203,7 +203,7 @@ img.company {
 h1.container2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    font-size: 45pt;
+    font-size: 25pt;
     color: #CB607B;
     position: inherit;
     margin-top:0;
