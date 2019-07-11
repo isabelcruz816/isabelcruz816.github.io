@@ -175,6 +175,13 @@ p.container1 {
     font-weight: bolder;
     line-height: 180%;
 }
+#p11 {
+    font-size: 12pt;
+    font-family: 'Muli', sans-serif;
+    color:#5A5A5A;
+    text-align: center;
+    font-weight: bolder;
+}
 
 li.exp {
     font-family: 'Poppins', sans-serif;
@@ -365,8 +372,6 @@ button {
     display: inline-block;
     grid-column-gap: 0px;
     grid-template-columns: auto auto;
-    padding-bottom: 20px;
-    padding-top: 20px;
 }
 
 .grid-item2 {
