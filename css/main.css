@@ -62,16 +62,6 @@ a.contact {
     text-decoration: underline dotted;
 }
 
-#ppicture {
-    border-radius: 50%;
-    width: 350px;
-    height: 285px;
-    padding: 16px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /*
 .topnav {
     background-color: #75334E;
@@ -358,4 +348,40 @@ button {
     max-width: 100%;
 }
 
+#line {
+    background: #75334E;
+    width: 95%;
+    height: 5px;
+    position: relative;
+    margin-right: 30px;
+    margin-left: 30px;
+    z-index: 1;
+}
 
+.circleimg {
+    border-radius: 20%;
+    width: 280px;
+    height: 220px;
+    margin-left: 20px;;
+    z-index: 1;
+    position: inherit;
+}
+
+.grid-container2 {
+    display: inline-block;
+    grid-column-gap: 0px;
+    grid-template-columns: auto auto;
+}
+
+.grid-item2 {
+    text-align: center;
+}
+
+p.gridtext {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18pt;
+    color: #75334E;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
