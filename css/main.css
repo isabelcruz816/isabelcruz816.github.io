@@ -8,7 +8,7 @@ body { /*selector*/
     bottom: 0;
 }
 
-.navbar {
+#navbar {
     position: fixed;
     display: flex;
     justify-content: center;
@@ -31,15 +31,13 @@ body { /*selector*/
 .logo {
     flex: 1 1 auto;
     margin-left: 10%;
-    text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-    font-size: 28px;
+    font-family: 'Courgette', cursive;
+    font-size: 32px;
     color: #E0DCD9;
     text-decoration: none;
-    letter-spacing: 5px;
 }
 
-.nav a {
+#navbar a {
     margin: 15px;
     color: white;
     font-family: 'Muli', sans-serif;
@@ -47,13 +45,13 @@ body { /*selector*/
     text-decoration: none;
 }
 
-.nav a:hover {
+#navbar a:hover {
     color: #CB607B;
 }
 
 html {
     scroll-behavior: smooth;
-    
+
 }
 
 
