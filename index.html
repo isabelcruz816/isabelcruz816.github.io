@@ -1,273 +1,315 @@
 <!DOCTYPE html>
 
 <html>
-	<head>
-		<title>Hi, I'm Isabel.</title>
-		<meta charset = "UTF-8"> <!-- defines default HTML character codes -->
-		<meta name = "autor" content = "Isabel Cruz"> <!-- identifies author -->
-		<!-- Stylesheets -->
-		<link rel = "stylesheet" href = "../css/normalize.css">
-		<link rel = "stylesheet" href = "../css/main.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<link rel="stylesheet" href="https://use.typekit.net/kos0sro.css">
+<head>
+	<title>Hi, I'm Isabel.</title>
+	<meta charset="UTF-8"> <!-- defines default HTML character codes -->
+	<meta name="autor" content="Isabel Cruz"> <!-- identifies author -->
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="./css/main.css">
+	<link rel="stylesheet" href="./css/normalizes.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-		<!-- Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<div id = "top"></div>
-		<!-- Navigation bar -->
-		<div id = "navbar" >
-			<div class = "logo">Isabel</div>
-			<ul class = "nav">
-				<li><a href = "#home">Home</a></li>
-				<li><a href = "#aboutme">About me</a></li>
-				<li><a href = "#experience">Experience</a></li>
-				<li><a href = "#skills">Skills</a></li>
-				<li><a href = "#projects">Special Projects</a></li>
-				<li><a href = "#contact">Contact</a></li>
-			</ul>
-		</div>
-		<!--Header-->
-		<div id = "home" class = "header">
-			<h1 class = "header">Hi, I'm Isabel!</h1>
-			<p class = "header">It's nice to meet you.</p>
-		</div>
-		<!-- About me -->
-		<div id = "aboutme" class = "container1">
-			<h1 class = "container1">ABOUT ME</h1>
-			<div id = "code1">
-				<div class = "bartop">
-					<span class = "dot"></span>
-					<span class = "dot"></span>
-					<span class = "dot"></span>
-				</div>
-				<p class = "content">
-					> isabel.name <br> <span style="font-style: italic; font-size: 13pt; color:#D1D0D1">=> Ana Isabel Cruz Ramos</span>
-					<br>
-					> isabel.education <br> <span style = "font-style: italic; font-size: 13pt; color:#D1D0D1">=> Instituto Tecnológico de Monterrey</span>
-					<br>
-					> isabel.major <br> <span style ="font-style:italic; font-size: 13pt; color:#D1D0D1">=> Computer Science</span>
-					<br>
-					> isabel.expectedGraduation <br> <span style="font-style: italic; font-size: 13pt; color:#D1D0D1">=> December 2021</span>
-					<br>
-					> isabel.technicalSkills <br> <span style="font-style: italic; font-size: 13pt; color:#D1D0D1">=> ["HTML", "CSS", "JavaScript", "Java", "C++", "Tableau", "Scilab", "Python"]</span>
-					<br>
-					> isabel.hobbies <br> <span style="font-style: italic; font-size: 13pt; color:#D1D0D1">=> ["Pilates", "Programming", "Family&Friends", "Professional in chilling and movies"]</span>
-					<br>
-					> isabel.resume <br> <a href = "./docs/AnaIsabel_Resume2019.pdf" target = "_blank"><span style = "text-decoration: underline">isabelcruz.pdf</span></a>
-				</p>
-			</div>
-		</div>
-		<!-- Experience-->
-		<div id = "experience" class = container2>
-			<h1 class = container2>EXPERIENCE</h1>
-			<div class = "grid-container">
-				<div class = "grid-item">
-					<img class = "img-fluid" src = "../images/android.png">
-				</div>
-				<div class = "grid-item">
-						<img class = "img-fluid" src = "../images/database.png">
-				</div>
-				<div class = "grid-item">
-					<img class = "img-fluid" src = "../images/laptop.png">
-				</div>
-				<span class = "grid-item"><h1 class = "exp">Mobile Development</h1></span>
-				<span class = "grid-item"><h1 class = "exp">Database Management</h1></span>
-				<span class = "grid-item"><h1 class = "exp">Web Development</h1></span>
-				<span class = "grid-item"><p class = "gridtext">June 2019 - Present</p></span>
-				<span class = "grid-item"><p class = "gridtext">June 2019 - Present</p></span>
-				<span class = "grid-item"><p class = "gridtext">Summer 2018</p></span>
-				<div class = "grid-item">
-					<ul>
-						<li class = "exp">Help fixing bugs to improve the functionality and user experience in the mobile application.</li>
-						<li class = "exp">Java and Android Studio</li>
-					</ul>
-				</div>
-				<div class = "grid-item">
-					<ul>
-						<li class = "exp">Help improving data base management of the company to increase efficiency.</li>
-						<li class = "exp">Azure Data Studio and SQL</li>
-					</ul>
-				</div>
-				<div class = "grid-item">
-					<ul>
-						<li class = "exp">Helped refactoring websites.</li>
-						<li class = "exp">HTML, CSS, JavaScript, Wordpress, Divi</li>
-					</ul>
-				</div>
-				<span class = "grid-item"><p id = "p11">Company: <a href = "http://www.telstock.net/" target = "_blank">Telstock</a></p></span>
-				<span class = "grid-item"><p id = "p11">Company: <a href = "http://www.telstock.net/" target = "_blank">Telstock</a></p></span>
-				<span class = "grid-item"><p id = "p11">Company: Red Rooster Marketing</p></span>
-			</div>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://use.typekit.net/kos0sro.css">
 
-		</div>
-		<!-- Skills -->
-		<div id = "skills" class = container1>
-			<h1 class = container1>SKILLS</h1>
-		<div class = "circle">
-			<button onclick="document.getElementById('id01').style.display='block'">C++</button>
-  				<div id="id01" class="w3-modal">
-   					 <div class="w3-modal-content">
-     				 <div class="w3-container">
-        				<span onclick="document.getElementById('id01').style.display='none'" class="w3-button1 w3-display-topright">&times</span>
-							<h1 class = "popup">C++</h1>
-							<p id = "p1">I was introduced with C++ in my first semester of college at ITESM.<br><br>
-								Relevant courses:
-								<ul>
-									<li class = "exp">Fundaments of programming</li>
-									<li class = "exp">Object oriented programming</li>
-									<li class = "exp">Data Structures</li>
-									<li class = "exp">Algorithms</li>
-								</ul>
-							</p>
-     				 </div>
-    				</div>
-				</div>
-		</div>		
-			
-		<div class = "circle">
-			<button onclick="document.getElementById('id02').style.display='block'">Swift</button>
-  				<div id="id02" class="w3-modal">
-   					 <div class="w3-modal-content">
-						<div class="w3-container">
-							<span onclick="document.getElementById('id02').style.display='none'" class="w3-button1 w3-display-topright">&times</span>
-								<h1 class = "popup">Swift</h1>
-								<p id = "p1">I learned Swift during my last year of high-school and developed an application as a school project.<br><br>
-									Relevant courses:
-									<ul>
-										<li class = "exp">iOS Application Development with Swift.</li>
-										<li class = "exp">Swift workshop</li>
-									</ul>
-								</p>
-						</div>
-    				</div>
-				</div>
-		</div>
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+</head>
 
-		<div class = "circle">
-			<button onclick="document.getElementById('id03').style.display='block'">JavaScript</button>
-  				<div id="id03" class="w3-modal">
-   					 <div class="w3-modal-content">
-     				 <div class="w3-container">
-        				<span onclick="document.getElementById('id03').style.display='none'" class="w3-button1 w3-display-topright">&times</span>
-							<h1 class = "popup">JavaScript</h1>
-							<p id = "p1">Self-taught</p>
-							<ul>
-								<li class = "exp">Fundaments of JavaScript by CodeAcademy.</li>
-								<li class = "exp">HTML/CSS and JavaScript For Dummies by Chris Minnick, Eva Holland, Ed Tittel.</li>
-							</ul>
-     				 </div>
-    				</div>
-				</div>
-		</div>
-		
-		<div class = "circle">
-			<button onclick="document.getElementById('id04').style.display='block'">Java</button>
-  				<div id="id04" class="w3-modal">
-   					 <div class="w3-modal-content">
-     				 <div class="w3-container">
-        				<span onclick="document.getElementById('id04').style.display='none'" class="w3-button1 w3-display-topright">&times</span>
-							<h1 class = "popup">Java</h1>
-							<p id = "p1">I learned Java in high-school and I enforced my knowledge of this language in college developing a videogame.
-								<br> <br> Relevant courses:
-							</p>
-							<ul>
-								<li class = "exp">Introduction to informatic technology</li>
-								<li class = "exp">Videogame Project Development</li>
-							</ul>
-     				 </div>
-    				</div>
-				</div>
-		</div>	
-		
-		<div class = "circle">
-			<button onclick="document.getElementById('id05').style.display='block'">Scilab</button>
-  				<div id="id05" class="w3-modal">
-   					 <div class="w3-modal-content">
-     				 <div class="w3-container">
-        				<span onclick="document.getElementById('id05').style.display='none'" class="w3-button1 w3-display-topright">&times</span>
-							<h1 class = "popup">Scilab</h1>
-							<p id = "p1">Relevant courses:</p>
-							<ul>
-								<li class = "exp">Numerical Methods for engineering.</li>
-							</ul>
-     				 </div>
-    				</div>
-				</div>
-		</div>	
-
-		<div class = "circle">
-			<button onclick="document.getElementById('id06').style.display='block'">Python</button>
-  				<div id="id06" class="w3-modal">
-   					 <div class="w3-modal-content">
-     				 <div class="w3-container">
-        				<span onclick="document.getElementById('id06').style.display='none'" class="w3-button1 w3-display-topright">&times</span>
-							<h1 class = "popup">Python</h1>
-							<p id = "p1">Self-taught.</p>
-							<ul>
-								<li class = "exp">Python without fear by Brian R. Overland</li>
-							</ul>
-     				 </div>
-    				</div>
-				</div>
-		</div>	
+<body>
+	<div id="top"></div>
+	<!-- Navigation bar -->
+	<div id="navbar">
+		<div class="logo">Isabel</div>
+		<ul class="nav">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#aboutme">About me</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#projects">Special Projects</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
 	</div>
-		<!-- What I've Done -->
-		<div id = "projects" class = container2>
-			<h1 class = "container2">SPECIAL PROJECTS</h1>
-			<div class = "grid-container2">
-				<div class = "grid-item2">
-					<img class = "circleimg" src = "../images/patrones.jpg">
-				</div>
-				<div class = "grid-item2">
-					<p class = "gridtext">Patrones Hermosos</p>
-					<p class = "description3">May 2019</p>
-					<p id = "p11"><a href = "https://dreamgrande.io/#videos" target = "_blank">Website</a></p>
-				</div>
+	<!--Header-->
+	<div id="home" class="header">
+		<h1 class="header">Hi, I'm Isabel!</h1>
+		<p class="header">It's nice to meet you!</p>
+	</div>
+	<!-- About me -->
+	<div id="aboutme" class="container1">
+		<h1 class="container1">ABOUT ME</h1>
+		<div id="code1">
+			<div class="bartop">
+				<span class="dot"></span>
+				<span class="dot"></span>
+				<span class="dot"></span>
 			</div>
-			<div class = "grid-item2">
-				<div class = grid-item2>
-					<img class = "circleimg" src = "../images/gcc.jpg">
-				</div>
-				<div class = "grid-item2">
-					<p class = "gridtext">Girls Code Club</p>
-					<p class = "description3">January 2019 - Present</p>
-					<p id = "p11"><a href="https://www.facebook.com/GirlsC0deClub/" target="_blank">Facebook page</a></p>
-				</div>
+			<p class="content">
+				> isabel.name <br> <span style="font-style: italic; font-size: 13pt; color:#D1D0D1">=> Ana Isabel Cruz
+					Ramos</span>
+				<br>
+				> isabel.education <br> <span style="font-style: italic; font-size: 13pt; color:#D1D0D1">=> Instituto
+					Tecnológico de Monterrey</span>
+				<br>
+				> isabel.major <br> <span style="font-style:italic; font-size: 13pt; color:#D1D0D1">=> Computer
+					Science</span>
+				<br>
+				> isabel.expectedGraduation <br> <span style="font-style: italic; font-size: 13pt; color:#D1D0D1">=>
+					December 2021</span>
+				<br>
+				> isabel.technicalSkills <br> <span style="font-style: italic; font-size: 13pt; color:#D1D0D1">=>
+					["HTML", "CSS", "JavaScript", "Java", "C++", "Scilab", "Python"]</span>
+				<br>
+				> isabel.hobbies <br> <span style="font-style: italic; font-size: 13pt; color:#D1D0D1">=> ["Pilates",
+					"Programming", "Family&Friends", "Professional in chilling and movies", "Gaming"]</span>
+				<br>
+				> isabel.resume <br> <a href="./docs/AnaIsabel_Resume2019.pdf" target="_blank"><span
+						style="text-decoration: underline">isabelcruz.pdf</span></a>
+			</p>
+		</div>
+	</div>
+	<!-- Experience-->
+	<div id="experience" class=container2>
+		<h1 class=container2>EXPERIENCE</h1>
+		<div class="grid-container">
+			<div class="grid-item">
+				<img class="img-fluid" src="../images/android.png">
 			</div>
-			<div class = "grid-container2">
-				<div class = "grid-item2">
-					<img class = "circleimg" src = "../images/wit.png">
-				</div>
-				<div class = "grid-item2">
-					<p class = "gridtext">Women in Technology</p>
-					<p class = "description3">2019</p>
-					<p id = "p11"><a href="https://www.facebook.com/womenintechmx/?ref=br_rs" target="_blank">Facebook page</a></p>
+			<div class="grid-item">
+				<img class="img-fluid" src="../images/database.png">
+			</div>
+			<div class="grid-item">
+				<img class="img-fluid" src="../images/laptop.png">
+			</div>
+			<span class="grid-item">
+				<h1 class="exp">Mobile Development</h1>
+			</span>
+			<span class="grid-item">
+				<h1 class="exp">Database Management</h1>
+			</span>
+			<span class="grid-item">
+				<h1 class="exp">Web Development</h1>
+			</span>
+			<span class="grid-item">
+				<p class="gridtext">June 2019 - Present</p>
+			</span>
+			<span class="grid-item">
+				<p class="gridtext">June 2019 - Present</p>
+			</span>
+			<span class="grid-item">
+				<p class="gridtext">Summer 2018</p>
+			</span>
+			<div class="grid-item">
+				<ul>
+					<li class="exp">Help fixing bugs to improve the functionality and user experience in the mobile
+						application.</li>
+					<li class="exp">Java and Android Studio</li>
+				</ul>
+			</div>
+			<div class="grid-item">
+				<ul>
+					<li class="exp">Help improving data base management of the company to increase efficiency.</li>
+					<li class="exp">Azure Data Studio and SQL</li>
+				</ul>
+			</div>
+			<div class="grid-item">
+				<ul>
+					<li class="exp">Helped refactoring websites.</li>
+					<li class="exp">HTML, CSS, JavaScript, Wordpress, Divi</li>
+				</ul>
+			</div>
+			<span class="grid-item">
+				<p id="p11">Company: <a href="http://www.telstock.net/" target="_blank">Telstock</a></p>
+			</span>
+			<span class="grid-item">
+				<p id="p11">Company: <a href="http://www.telstock.net/" target="_blank">Telstock</a></p>
+			</span>
+			<span class="grid-item">
+				<p id="p11">Company: Red Rooster Marketing</p>
+			</span>
+		</div>
+
+	</div>
+	<!-- Skills -->
+	<div id="skills" class=container1>
+		<h1 class=container1>SKILLS</h1>
+		<div class="circle">
+			<button onclick="document.getElementById('id01').style.display='block'">C++</button>
+			<div id="id01" class="w3-modal">
+				<div class="w3-modal-content">
+					<div class="w3-container">
+						<span onclick="document.getElementById('id01').style.display='none'"
+							class="w3-button1 w3-display-topright">&times</span>
+						<h1 class="popup">C++</h1>
+						<p id="p1">I was introduced with C++ in my first semester of college at ITESM.<br><br>
+							Relevant courses:
+							<ul>
+								<li class="exp">Fundaments of programming</li>
+								<li class="exp">Object oriented programming</li>
+								<li class="exp">Data Structures</li>
+								<li class="exp">Algorithms</li>
+							</ul>
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- Contact -->
-		<div id = "contact" class = "container1">
-			<h1 class = container1>Let's get in touch</h1>
-			<a class = "contact" href = "mailto:isabel.cruz81699@gmail.com" target = "_blank">isabel.cruz81699@gmail.com</a></p>
-			<a href = "https://www.facebook.com/isabel.cruz.180072?ref=bookmarks" target = "_blank" class = "fa fa-facebook" style = "font-size: 30px"></a>
-			<a href = "https://www.instagram.com/isabelcruzra/?hl=en" target = "_blank" class = "fa fa-instagram" style = "font-size: 30px"></a>
-			<a href = "https://www.linkedin.com/in/anaisabelcruz/" target="_blank" class = "fa fa-linkedin" style = "font-size: 30px"></a>
+
+		<div class="circle">
+			<button onclick="document.getElementById('id02').style.display='block'">Swift</button>
+			<div id="id02" class="w3-modal">
+				<div class="w3-modal-content">
+					<div class="w3-container">
+						<span onclick="document.getElementById('id02').style.display='none'"
+							class="w3-button1 w3-display-topright">&times</span>
+						<h1 class="popup">Swift</h1>
+						<p id="p1">I learned Swift during my last year of high-school and developed an application as a
+							school project.<br><br>
+							Relevant courses:
+							<ul>
+								<li class="exp">iOS Application Development with Swift.</li>
+								<li class="exp">Swift workshop</li>
+							</ul>
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
-		<!-- Footer -->
-		<footer>
-			<div>Copyright © Isabel Cruz</div>
-		</footer>
-		<script src = "../main.js"></script>
-	</body>
+
+		<div class="circle">
+			<button onclick="document.getElementById('id03').style.display='block'">JavaScript</button>
+			<div id="id03" class="w3-modal">
+				<div class="w3-modal-content">
+					<div class="w3-container">
+						<span onclick="document.getElementById('id03').style.display='none'"
+							class="w3-button1 w3-display-topright">&times</span>
+						<h1 class="popup">JavaScript</h1>
+						<p id="p1">Self-taught</p>
+						<ul>
+							<li class="exp">Fundaments of JavaScript by CodeAcademy.</li>
+							<li class="exp">HTML/CSS and JavaScript For Dummies by Chris Minnick, Eva Holland, Ed
+								Tittel.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="circle">
+			<button onclick="document.getElementById('id04').style.display='block'">Java</button>
+			<div id="id04" class="w3-modal">
+				<div class="w3-modal-content">
+					<div class="w3-container">
+						<span onclick="document.getElementById('id04').style.display='none'"
+							class="w3-button1 w3-display-topright">&times</span>
+						<h1 class="popup">Java</h1>
+						<p id="p1">I learned Java in high-school and I enforced my knowledge of this language in college
+							developing a videogame.
+							<br> <br> Relevant courses:
+						</p>
+						<ul>
+							<li class="exp">Introduction to informatic technology</li>
+							<li class="exp">Videogame Project Development</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="circle">
+			<button onclick="document.getElementById('id05').style.display='block'">Scilab</button>
+			<div id="id05" class="w3-modal">
+				<div class="w3-modal-content">
+					<div class="w3-container">
+						<span onclick="document.getElementById('id05').style.display='none'"
+							class="w3-button1 w3-display-topright">&times</span>
+						<h1 class="popup">Scilab</h1>
+						<p id="p1">Relevant courses:</p>
+						<ul>
+							<li class="exp">Numerical Methods for engineering.</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="circle">
+			<button onclick="document.getElementById('id06').style.display='block'">Python</button>
+			<div id="id06" class="w3-modal">
+				<div class="w3-modal-content">
+					<div class="w3-container">
+						<span onclick="document.getElementById('id06').style.display='none'"
+							class="w3-button1 w3-display-topright">&times</span>
+						<h1 class="popup">Python</h1>
+						<p id="p1">Self-taught.</p>
+						<ul>
+							<li class="exp">Python without fear by Brian R. Overland</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- What I've Done -->
+	<div id="projects" class=container2>
+		<h1 class="container2">SPECIAL PROJECTS</h1>
+		<div class="grid-container2">
+			<div class="grid-item2">
+				<img class="circleimg" src="../images/patrones.jpg">
+			</div>
+			<div class="grid-item2">
+				<p class="gridtext">Patrones Hermosos</p>
+				<p class="description3">May 2019</p>
+				<p id="p11"><a href="https://dreamgrande.io/#videos" target="_blank">Website</a></p>
+			</div>
+		</div>
+		<div class="grid-item2">
+			<div class=grid-item2>
+				<img class="circleimg" src="../images/gcc.jpg">
+			</div>
+			<div class="grid-item2">
+				<p class="gridtext">Girls Code Club</p>
+				<p class="description3">January 2019 - Present</p>
+				<p id="p11"><a href="https://www.facebook.com/GirlsC0deClub/" target="_blank">Facebook page</a></p>
+			</div>
+		</div>
+		<div class="grid-container2">
+			<div class="grid-item2">
+				<img class="circleimg" src="../images/wit.png">
+			</div>
+			<div class="grid-item2">
+				<p class="gridtext">Women in Technology</p>
+				<p class="description3">2019</p>
+				<p id="p11"><a href="https://www.facebook.com/womenintechmx/?ref=br_rs" target="_blank">Facebook
+						page</a></p>
+			</div>
+		</div>
+	</div>
+	<!-- Contact -->
+	<div id="contact" class="container1">
+		<h1 class=container1>Let's get in touch</h1>
+		<a class="contact" href="mailto:isabel.cruz81699@gmail.com" target="_blank">isabel.cruz81699@gmail.com</a></p>
+		<a href="https://www.facebook.com/isabel.cruz.180072?ref=bookmarks" target="_blank" class="fa fa-facebook"
+			style="font-size: 30px"></a>
+		<a href="https://www.instagram.com/isabelcruzra/?hl=en" target="_blank" class="fa fa-instagram"
+			style="font-size: 30px"></a>
+		<a href="https://www.linkedin.com/in/anaisabelcruz/" target="_blank" class="fa fa-linkedin"
+			style="font-size: 30px"></a>
+	</div>
+	<!-- Footer -->
+	<footer>
+		<div>Copyright © Isabel Cruz</div>
+	</footer>
+	<script src="../main.js"></script>
+</body>
+
 </html>
